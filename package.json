@@ -8,6 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "dev:admin": "nuxt --config-file admin/app.config.js",
+    "build:admin": "nuxt build --config-file admin/app.config.js",
+    "start:admin": "nuxt start --config-file admin/app.config.js",
     "generate": "nuxt generate"
   },
   "dependencies": {
